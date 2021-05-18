@@ -1,0 +1,42 @@
+@media only screen and (max-width:360px){
+    .image{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:450px){
+    tr th{
+        padding:1px;
+        }
+    .myimage{
+        width: 35%;
+    }
+    .aboutme{
+        width:65%;
+        padding: 20px;
+    }
+}
+@media only screen and (max-width:550px){
+    body{
+        font-size: 0.8rem;
+        /* background-color:rgb(240, 243, 245); */
+    }
+}
+@media only screen and (max-width:380px){
+    .myimage{
+        width: 50%;
+    }
+    .aboutme{
+        width:50%;
+        padding-left: 1px;
+    }
+    body{
+        font-size: 0.7rem;
+        /* background-color: rgb(10, 176, 182); */
+    }
+}
+@media only screen and (max-width:320px){
+    body{
+        font-size: 0.6rem;
+        /* background-color: burlywood; */
+    }
+}

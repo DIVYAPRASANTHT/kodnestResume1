@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* background-color:rgb(255, 255, 255); */
+}
+.container{
+    border-left: 10px double rgb(121, 19, 19);
+    width: 80%;
+    margin: auto;
+    background-color: rgb(235, 231, 226);
+}
+body{
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2;
+    background-color:rgb(54, 48, 48);
+    /* background-image:url("pexels1.jpg"); */
+}
+.section-1 {
+    padding-top: 5px;
+    display:flex;
+    width: 100%;
+  }
+.aboutme{
+    padding-left: 70px;
+    width: 70%;
+    color: rgb(26, 19, 19);
+    text-shadow: 2px 2px 4px rgb(218, 50, 50); 
+    
+}
+.list{
+    list-style: none;
+}
+.myimage{
+    width: 30%;
+}
+.image{
+    width: 80%;
+    height: 200px;
+    min-width: 110px;
+}
+.seperator{
+    padding: 10px;
+}
+#one{
+    margin: auto;
+    width: 80%;
+    padding-left: 25px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tabledetails{
+    padding-left: 5px;
+    /* justify-content: center; */
+    /* display: flex; */
+    /* width: 100%; */
+}
+table{
+    width: 75%;
+    margin: auto;
+    background-color: rgb(206, 194, 194);
+    box-shadow: 10px 10px 5px rgb(211, 193, 193);
+}
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+th{
+    padding: 4px;
+    color: white;
+    background-color: rgb(165, 71, 71);
+}
+tr,td{
+    padding: 0px 10px;
+}
+.skill{
+    width: 100%;
+    /* display: flex; */
+    flex-direction: column;
+}
+.lang{
+    display: flex;
+}
+.lang div:first-child{
+    padding-left: 40px;
+    width: 40%;
+}
+.lang div:last-child{
+    width: 60%;
+}
+.progressbar{
+    width: 94%;
+}
+
+.projectdetails{
+    padding-left:25px;
+}
+.one{
+    font-weight: bold;
+}
+.personalDetails{
+    margin: auto;
+    width: 70%;
+}
+.details{
+    display: flex;
+}
+.details div:first-child{
+    font-weight: bold;
+    width: 50%;
+}
+.details div:last-child{
+    width: 50%;
+}
+.section-2 h4{
+    background-color:rgb(45, 87, 45);
+    color: white;
+    width: 100px;
+}
+.section-3 h4{
+    background-color: rgb(45, 87, 45);
+    color: white;
+    width: 100px;
+}
+.section-4 h4{
+    background-color:rgb(45, 87, 45);
+    color: white;
+    width: 100px;
+}
+.section-5 h4{
+    background-color:rgb(45, 87, 45);
+    color: white;
+    width: 100px;
+}
+.section-6 h4{
+    background-color:rgb(45, 87, 45);
+    color: white;
+    width: 120px;
+}
+.header{
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+  
+.header{animation-timing-function: linear;}
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 125px;}
+}
+tr:hover{
+    background-color: rgb(238, 134, 99);
+}
