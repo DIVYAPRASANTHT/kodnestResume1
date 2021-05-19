@@ -111,10 +111,10 @@ tr,td{
 }
 .details div:first-child{
     font-weight: bold;
-    width: 50%;
+    width: 40%;
 }
 .details div:last-child{
-    width: 50%;
+    width: 60%;
 }
 .section-2 h4{
     background-color:rgb(45, 87, 45);
